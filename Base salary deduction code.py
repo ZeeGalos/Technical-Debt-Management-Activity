@@ -4,7 +4,7 @@ def compute_deductions(salary):
     pagibig_cost = input("Enter Pagibig deduction value: ")
     tax_value = input("Enter tax deduction value: ")
 
-    deductions = sss_cost + philhealth_cost + pagibig_cost + tax
+    deductions = sss_cost + philhealth_cost + pagibig_cost + tax_value
     net_salary = salary - deductions
 
     print("Gross Salary:", salary)
@@ -14,9 +14,6 @@ def compute_deductions(salary):
     print("Tax Deduction:", tax)
     print("Total Deductions:", deductions)
     print("Net Salary:", net_salary)
-
-    salary = float(input("Enter your monthly salary: "))
-    compute_deductions(salary)
 
 salary = float(input("Enter your monthly salary: "))
 compute_deductions(salary)
