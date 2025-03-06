@@ -9,24 +9,21 @@ def compute_deductions(salary):
 
     tax_value = 1875.0
 
-    deductions = sss_cost + philhealth_cost + pagibig_cost + tax_value
-    net_salary = salary - deductions
+    net_salary = salary - (sss_cost + philhealth_cost + pagibig_cost + tax_value)
 
     print("Gross Salary:", salary)
     print("SSS Deduction:", sss_cost)
     print("PhilHealth Deduction:", philhealth_cost)
     print("Pag-IBIG Deduction:", pagibig_cost)
     print("Tax Deduction:", tax_value)
-    print("Total Deductions:", deductions)
+    print("Total Deductions:", sss_cost + philhealth_cost + pagibig_cost + tax_value)
     print("Net Salary:", net_salary)
-
-salary = float(input("Enter your monthly salary with decimals: "))
 
 while True:
     try:
-        salary = float(input("Enter your monthly salary with decimals: "))
+        salary = float(input("Enter your monthly salary: "))
         break
     except ValueError:
-        print("Invalid input. Please enter a valid number for your salary. ")
+        print("Invalid input. Please enter a valid number for your salary.")
 
 compute_deductions(salary)
