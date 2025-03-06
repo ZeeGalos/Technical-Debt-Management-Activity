@@ -1,5 +1,5 @@
 def compute_deductions(salary):
-    sss_cost = 1200
+    sss_cost = input("Enter SSS deduction value: ")
     philhealth_cost = (salary * 0.05) / 2
     pagibig_cost = 100
     tax = 1875 # Assuming fixed value for simplicity
@@ -17,3 +17,6 @@ def compute_deductions(salary):
 
     salary = float(input("Enter your monthly salary: "))
     compute_deductions(salary)
+
+salary = float(input("Enter your monthly salary: "))
+compute_deductions(salary)
