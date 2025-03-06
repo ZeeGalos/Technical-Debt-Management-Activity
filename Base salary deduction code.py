@@ -11,7 +11,7 @@ def compute_deductions(salary):
     print("SSS Deduction:", sss_cost)
     print("PhilHealth Deduction:", philhealth_cost)
     print("Pag-IBIG Deduction:", pagibig_cost)
-    print("Tax Deduction:", tax)
+    print("Tax Deduction:", tax_value)
     print("Total Deductions:", deductions)
     print("Net Salary:", net_salary)
 
