@@ -27,6 +27,6 @@ while True:
         salary = float(input("Enter your monthly salary with decimals: "))
         break
     except ValueError:
-        print("Invalid input. Please enter a valid number for your salary.")
+        print("Invalid input. Please enter a valid number for your salary. ")
 
 compute_deductions(salary)
