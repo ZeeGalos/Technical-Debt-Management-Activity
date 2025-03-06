@@ -38,3 +38,10 @@ while True:
 
 Code duplication:
 N/A
+
+
+Technical Debt Identified:
+Short bursts of work lead to issues between collaborators pushing and pulling files when working on the same file
+
+Challenges faced & solutions:
+Identifying values and formulas related to salary deductions in Philippines
