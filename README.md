@@ -11,8 +11,6 @@ pagibig -> pagibig_cost
 tax -> tax_value
 
 Lack of modular functions:
- 
-
 
 Hardcoded values instead of dynamic inputs:
 
@@ -24,6 +22,6 @@ tax: 1875 -> input("Enter tax deduction value: ")
 
 No error handling:
 
-input validation 
+input validation
 
 Code duplication:
